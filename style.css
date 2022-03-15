@@ -1,0 +1,84 @@
+#center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 100px;
+}
+
+#logo {
+  display: flex;
+  text-align: center;
+  width: 450px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo p {
+  margin-left: 30px;
+  font-size: large;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  border: 3px solid black;
+  flex-direction: column;
+}
+.main h4 {
+  margin-top: 0px;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+#course_info {
+  margin-top: -20px;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 6px;
+  /* flex-direction: column; */
+}
+
+#catalogue {
+  margin-top: -30px;
+  margin-bottom: -10px;
+}
+#unit table {
+  margin: 10px;
+  margin-top: -23px;
+  margin-bottom: -5px;
+}
+#unit table,
+th {
+  /* padding-left: 80px; */
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+#unit tr,
+td {
+  padding: 5px;
+  text-align: justify;
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+#pechy-ah {
+  text-align: left;
+}
+
+#reference {
+  margin-top: -30px;
+  margin-left: 10px;
+}
+#reference #para1 {
+  margin-left: 30px;
+}
